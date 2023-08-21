@@ -1,0 +1,24 @@
+
+{
+    "manifest_version": 2,
+    "name": "Password Manager",
+    "description": "Manage your passwords securely.",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "sockets.tcp", 
+        "sockets.tcpConnect",
+        "clipboardWrite"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "assets/pIcon.png"
+    },
+    "sockets": {
+        "tcp": {
+            "connect": "*:*"
+        }
+    }
+}
+
