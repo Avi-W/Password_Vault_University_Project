@@ -18,7 +18,7 @@ Required imported modules/packages: 'node:http', 'node:net', 'websocket'
 C# server for communicating between the Intermediary Server and the Trusted Execution environment.
 Has required imports not available to the public for communication with the Trusted Execution environmt, therefore not able to function properly though the source code is available.
 
-### Password Vault:
+### Password Vault (src folder):
 Java source code that handles the Intel Trusted Execution environemnt. Also not able to be run without packages from intel, however code is available here. 
 
 ### Final Report:
